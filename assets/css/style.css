@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    border: 0;
+}
+@font-face {
+    font-family: "RocGrotesk";
+    src: url(../fonts/RocGrotesk.ttf);
+}
+@font-face {
+    font-family: "Syne";
+    src: url(../fonts/Syne.ttf);
+}
+.h1_banner{
+    font-family: "RocGrotesk"!important;
+}
+body{
+    background-image: url(../img/Background_body3.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-link{
+    color: #FFF!important;
+    font-family: 'Syne', sans-serif !important;
+}
+.nav-link:hover{
+  text-decoration: underline;
+  transition: 0.5 ease;
+}
+.rounded_border{
+    border-radius: 20px;
+}
+.border_pink{
+    border: 2px solid #de7aa7;
+}
+.border_green{
+    border: 2px solid #7cdeaf;
+    
+}
+.fs_small{
+    font-size: 12px;
+}
+.fs_small2{
+    font-size: 14px;
+}
+.w-60{
+    width: 60%;
+}
+.width_custom{
+    width: 15%;
+}
+
+.width_custom2{
+    width: 90%;
+}
+.color_flourscent{
+    color: #74D0A4;
+}
+.w-70{
+    width: 70%;
+}
+.w-40{
+    width: 40%;
+}
+@media (max-width:475px) {
+    .w-70{
+        width: 100%;
+    }
+    .w-40{
+        width: 100%;
+    }
+    .width_custom{
+        width: 80%;
+    }
+    .w-60{
+        width: 80%;
+    }
+    
+}
